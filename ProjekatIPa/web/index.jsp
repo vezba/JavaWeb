@@ -11,7 +11,30 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
+    <style>
+        #listaVezbi {
+            font-size : 130%
+        }   
+    </style>
+     
     <body>
-        <h1>Hello World!</h1>
+    <center>
+        <h1> Lista vjezbi </h1>
+        <form>
+            <div id = "listaVezbi">
+                <a href="https://www.google.com"> 1. Vezba </a> <br>
+                     <a href="https://www.google.com"> 2. Vezba </a><br>
+                   <a href="https://www.google.com"> 3. Vezba </a><br>
+               
+                   <a href="https://www.google.com"> 4. Vezba </a><br>
+          
+                   <a href="https://www.google.com"> 5. Vezba </a><br>
+              
+                   <a href="https://www.google.com"> 6. Vezba </a><br>
+                
+            </div>
+        </form>
+    </center>
+        
     </body>
 </html>
