@@ -30,9 +30,18 @@ public class PrvaVezba extends HttpServlet {
             throws ServletException, IOException {
         processRequest(request, response);
         
-        new RadSaBazom().insert(request, response);        
+        if ("delete".equals(request.getParameter("action")))
+            new RadSaBazom().delete(request, response);
+        else
+            new RadSaBazom().insert(request,response);
+        
+        
+
     }
 
+  
+    
+    
 
 
 }
