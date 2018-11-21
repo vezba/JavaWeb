@@ -14,6 +14,7 @@
     <style>
         #listaVezbi {
             font-size : 130%
+
         }   
     </style>
      
@@ -22,19 +23,15 @@
         <h1> Lista vjezbi </h1>
         <form>
             <div id = "listaVezbi">
-                <a href="https://www.google.com"> 1. Vezba </a> <br>
-                     <a href="https://www.google.com"> 2. Vezba </a><br>
-                   <a href="https://www.google.com"> 3. Vezba </a><br>
-               
-                   <a href="https://www.google.com"> 4. Vezba </a><br>
-          
-                   <a href="https://www.google.com"> 5. Vezba </a><br>
-              
+                   <a href="PrvaVezba"> 1. Vezba </a> <br>
+                   <a href="DrugaVezba"> 2. Vezba </a><br>
+                   <a href="TrecaVezba"> 3. Vezba </a><br>
+                   <a href="CetvrtaVezba"> 4. Vezba </a><br>
+                   <a href="PetaVezba"> 5. Vezba </a><br>              
                    <a href="https://www.google.com"> 6. Vezba </a><br>
                 
             </div>
         </form>
     </center>
-        
     </body>
 </html>
