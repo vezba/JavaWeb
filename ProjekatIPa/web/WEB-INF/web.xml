@@ -12,6 +12,14 @@
         <servlet-name>PrikazKorpe</servlet-name>
         <servlet-class>paketi2.PrikazKorpe</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>TrecaVezba</servlet-name>
+        <servlet-class>paket3.TrecaVezba</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NaruciKnjigu</servlet-name>
+        <servlet-class>paket3.NaruciKnjigu</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -23,6 +31,14 @@
     <servlet-mapping>
         <servlet-name>PrikazKorpe</servlet-name>
         <url-pattern>/PrikazKorpe</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TrecaVezba</servlet-name>
+        <url-pattern>/TrecaVezba</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NaruciKnjigu</servlet-name>
+        <url-pattern>/NaruciKnjigu</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

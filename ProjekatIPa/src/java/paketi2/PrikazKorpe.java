@@ -68,7 +68,5 @@ public class PrikazKorpe extends HttpServlet {
             out.println("</html>");
         }
         
-        
-        
     }
 }
