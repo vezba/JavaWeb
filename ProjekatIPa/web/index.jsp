@@ -23,13 +23,12 @@
         <h1> Lista vjezbi </h1>
         <form>
             <div id = "listaVezbi">
-                   <a href="PrvaVezba"> 1. Vezba </a> <br>
-                   <a href="DrugaVezba"> 2. Vezba </a><br>
-                   <a href="TrecaVezba"> 3. Vezba </a><br>
-                   <a href="CetvrtaVezba"> 4. Vezba </a><br>
-                   <a href="PetaVezba"> 5. Vezba </a><br>              
+                   <a href="PrvaVezba"> 1. Unos podataka preko html forme u bazu </a> <br>
+                   <a href="DrugaVezba"> 2. Potrosacka korpa - sesija </a><br>
+                   <a href="TrecaVezba"> 3. Narucivanje knjiga - sesija </a><br>
+                   <a href="CetvrtaVezba"> 4. Slanje parametara - sesija </a><br>
+                   <a href="PetaVezba"> 5. Cookie i Rambova pjesma </a><br>              
                    <a href="https://www.google.com"> 6. Vezba </a><br>
-                
             </div>
         </form>
     </center>

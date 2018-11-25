@@ -32,6 +32,14 @@
         <servlet-name>DrugiServlet</servlet-name>
         <servlet-class>paketi4.DrugiServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PetaVezba</servlet-name>
+        <servlet-class>paketi5.PetaVezba</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CookieServlet</servlet-name>
+        <servlet-class>paketi5.CookieServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -63,6 +71,14 @@
     <servlet-mapping>
         <servlet-name>DrugiServlet</servlet-name>
         <url-pattern>/DrugiServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PetaVezba</servlet-name>
+        <url-pattern>/PetaVezba</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CookieServlet</servlet-name>
+        <url-pattern>/CookieServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
