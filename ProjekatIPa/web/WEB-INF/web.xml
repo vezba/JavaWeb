@@ -4,9 +4,25 @@
         <servlet-name>PrvaVezba</servlet-name>
         <servlet-class>paketi.PrvaVezba</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DrugaVezba</servlet-name>
+        <servlet-class>paketi2.DrugaVezba</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PrikazKorpe</servlet-name>
+        <servlet-class>paketi2.PrikazKorpe</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DrugaVezba</servlet-name>
+        <url-pattern>/DrugaVezba</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PrikazKorpe</servlet-name>
+        <url-pattern>/PrikazKorpe</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
