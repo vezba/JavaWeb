@@ -20,6 +20,18 @@
         <servlet-name>NaruciKnjigu</servlet-name>
         <servlet-class>paket3.NaruciKnjigu</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CetvrtaVezba</servlet-name>
+        <servlet-class>paketi4.CetvrtaVezba</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>PrviServlet</servlet-name>
+        <servlet-class>paketi4.PrviServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DrugiServlet</servlet-name>
+        <servlet-class>paketi4.DrugiServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -39,6 +51,18 @@
     <servlet-mapping>
         <servlet-name>NaruciKnjigu</servlet-name>
         <url-pattern>/NaruciKnjigu</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CetvrtaVezba</servlet-name>
+        <url-pattern>/CetvrtaVezba</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PrviServlet</servlet-name>
+        <url-pattern>/PrviServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DrugiServlet</servlet-name>
+        <url-pattern>/DrugiServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
