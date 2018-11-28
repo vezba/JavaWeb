@@ -1,4 +1,4 @@
-
+    
 package paket3;
 
 import java.io.IOException;
@@ -31,10 +31,11 @@ public class NaruciKnjigu extends HttpServlet {
         ArrayList<String> naruceneKnjige =  (ArrayList<String>) sesija.getAttribute("sesijaKnjiga");
         
         
-        if(naruceneKnjige==null){
+        if(naruceneKnjige == null){
             naruceneKnjige = new ArrayList<String>();
             sesija.setAttribute("sesijaKnjiga", naruceneKnjige);
         }
+        
         String[] novi = request.getParameterValues("knjiga");
         
         if(novi!=null){

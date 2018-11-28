@@ -40,6 +40,10 @@
         <servlet-name>CookieServlet</servlet-name>
         <servlet-class>paketi5.CookieServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletLista</servlet-name>
+        <servlet-class>paket6.ServletLista</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -79,6 +83,10 @@
     <servlet-mapping>
         <servlet-name>CookieServlet</servlet-name>
         <url-pattern>/CookieServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletLista</servlet-name>
+        <url-pattern>/ServletLista</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

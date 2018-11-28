@@ -33,7 +33,7 @@ public class TrecaVezba extends HttpServlet {
                         "    \n" +
                         "    <input type=\"submit\" value=\"Naruci knjigu\" style=\"margin-left:  25%\"> \n" +
                         "  "
-                    + "</form>  ");
+                    + "</form>");
             out.println("</body>");
             out.println("</html>");
         }
