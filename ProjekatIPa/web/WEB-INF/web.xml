@@ -60,6 +60,14 @@
         <servlet-name>PocetniServlet</servlet-name>
         <servlet-class>paket8.PocetniServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>KnjigiceServlet</servlet-name>
+        <servlet-class>paket9.KnjigiceServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>NovinaServlet</servlet-name>
+        <servlet-class>paket9.NovinaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -119,6 +127,14 @@
     <servlet-mapping>
         <servlet-name>PocetniServlet</servlet-name>
         <url-pattern>/PocetniServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>KnjigiceServlet</servlet-name>
+        <url-pattern>/KnjigiceServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>NovinaServlet</servlet-name>
+        <url-pattern>/NovinaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
