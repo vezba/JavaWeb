@@ -35,9 +35,9 @@ public class ServletLista extends HttpServlet {
             
             HttpSession sesija = request.getSession();
             
-             ArrayList<String> listaPolova =  (ArrayList<String>) request.getSession().getAttribute("pol");
             
-       //     ArrayList<String> listaPolova = (ArrayList<String>)sesija.getAttribute("pol");
+            
+            ArrayList<String> listaPolova = (ArrayList<String>)sesija.getAttribute("pol");
             ArrayList<String> listaRez = (ArrayList<String>)sesija.getAttribute("rez");
             ArrayList<String> listaFilmova = (ArrayList<String>)sesija.getAttribute("film");
             

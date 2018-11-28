@@ -44,6 +44,18 @@
         <servlet-name>ServletLista</servlet-name>
         <servlet-class>paket6.ServletLista</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>paket7.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ServletZaKorisnika</servlet-name>
+        <servlet-class>paket7.ServletZaKorisnika</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DrugiServletZaKorisnika</servlet-name>
+        <servlet-class>paket7.DrugiServletZaKorisnika</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -87,6 +99,18 @@
     <servlet-mapping>
         <servlet-name>ServletLista</servlet-name>
         <url-pattern>/ServletLista</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletZaKorisnika</servlet-name>
+        <url-pattern>/ServletZaKorisnika</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DrugiServletZaKorisnika</servlet-name>
+        <url-pattern>/DrugiServletZaKorisnika</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
