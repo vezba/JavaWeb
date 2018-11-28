@@ -17,8 +17,9 @@ public class DrugiServletZaKorisnika extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
            HttpSession sesija = request.getSession();
-            
-            
+
+           
+           
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
@@ -26,7 +27,7 @@ public class DrugiServletZaKorisnika extends HttpServlet {
             out.println("</head>");
             out.println("<body>");
             out.println("<h1> Jos si " + sesija.getAttribute("username") + "-e tu? </h1>");
-            out.println("<a href = LoginServlet>Back </a> ");
+            out.println("<a href = LoginServlet> Back </a> ");
             out.println("</body>");
             out.println("</html>");
         }

@@ -17,9 +17,6 @@ public class LoginServlet extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             
             HttpSession sesija = request.getSession();
-            
-            
-            
             String attemptUser = request.getParameter("user");
             String attemptPassword = request.getParameter("password");
             

@@ -56,6 +56,10 @@
         <servlet-name>DrugiServletZaKorisnika</servlet-name>
         <servlet-class>paket7.DrugiServletZaKorisnika</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PocetniServlet</servlet-name>
+        <servlet-class>paket8.PocetniServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -111,6 +115,10 @@
     <servlet-mapping>
         <servlet-name>DrugiServletZaKorisnika</servlet-name>
         <url-pattern>/DrugiServletZaKorisnika</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PocetniServlet</servlet-name>
+        <url-pattern>/PocetniServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
