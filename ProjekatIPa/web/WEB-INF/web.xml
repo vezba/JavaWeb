@@ -68,6 +68,18 @@
         <servlet-name>NovinaServlet</servlet-name>
         <servlet-class>paket9.NovinaServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Korpa</servlet-name>
+        <servlet-class>paketZaKnjige.KorpaCrnojevica</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Korpa2</servlet-name>
+        <servlet-class>paketZaKnjige.Korpa2</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginServletAplikacije</servlet-name>
+        <servlet-class>paketiLogovanja.LoginServletAplikacije</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrvaVezba</servlet-name>
         <url-pattern>/PrvaVezba</url-pattern>
@@ -135,6 +147,18 @@
     <servlet-mapping>
         <servlet-name>NovinaServlet</servlet-name>
         <url-pattern>/NovinaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Korpa</servlet-name>
+        <url-pattern>/Korpa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Korpa2</servlet-name>
+        <url-pattern>/Korpa2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServletAplikacije</servlet-name>
+        <url-pattern>/LoginServletAplikacije</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -37,14 +37,13 @@ public class UserList {
         
     }
     
-    public boolean authentifikuj(String korisnik)
+    public boolean authentifikuj2(String korisnik)
     {
      for(User u : this.korisnici)
         {
-            if(u.toString().equals( korisnik) )
+            if(u.toString().equals(korisnik))
             {
                 return true;
-
             }
                 
         }
